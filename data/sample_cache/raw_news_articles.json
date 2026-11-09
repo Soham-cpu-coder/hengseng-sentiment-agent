@@ -1,0 +1,290 @@
+[
+  {
+    "article_id": "exa_mock_0700.HK_4",
+    "ticker": "0700.HK",
+    "title": "[MOCK DEMO] Hang Seng Tech Index Edges Lower as Investors Weigh US Monetary Outlook",
+    "url": "https://finance.example.com/news/0700.hk_4",
+    "published_utc": "2026-11-01T19:05:47.865120+00:00",
+    "source_name": "HKET",
+    "summary": "Hong Kong tech giants traded mixed as broader macro sentiment softened amid persistent rate uncertainty in global bond markets.",
+    "relevance_score": 0.847,
+    "sentiment_score": -0.15,
+    "sentiment_label": "NEUTRAL",
+    "is_mock": true,
+    "raw_metadata": {
+      "is_synthetic": true
+    }
+  },
+  {
+    "article_id": "exa_mock_0700.HK_3",
+    "ticker": "0700.HK",
+    "title": "[MOCK DEMO] Goldman Sachs Reaffirms Buy Rating on Tencent, Sets Target Price to HKD 465",
+    "url": "https://finance.example.com/news/0700.hk_3",
+    "published_utc": "2026-11-03T18:05:47.865120+00:00",
+    "source_name": "AAStocks Financial",
+    "summary": "Goldman Sachs analysts highlighted Tencent's robust free cash flow conversion and defensive moat in competitive mobile gaming.",
+    "relevance_score": 0.951,
+    "sentiment_score": 0.8,
+    "sentiment_label": "BULLISH",
+    "is_mock": true,
+    "raw_metadata": {
+      "is_synthetic": true
+    }
+  },
+  {
+    "article_id": "exa_mock_0700.HK_2",
+    "ticker": "0700.HK",
+    "title": "[MOCK DEMO] Tencent Cloud Expands Global Footprint with New Middle East Availability Zones",
+    "url": "https://finance.example.com/news/0700.hk_2",
+    "published_utc": "2026-11-05T13:05:47.865120+00:00",
+    "source_name": "South China Morning Post",
+    "summary": "Tencent announced the launch of new data center regions in Riyadh and Dubai to support growing enterprise AI infrastructure demand.",
+    "relevance_score": 0.871,
+    "sentiment_score": 0.65,
+    "sentiment_label": "BULLISH",
+    "is_mock": true,
+    "raw_metadata": {
+      "is_synthetic": true
+    }
+  },
+  {
+    "article_id": "exa_mock_0700.HK_1",
+    "ticker": "0700.HK",
+    "title": "[MOCK DEMO] Tencent Deepens Share Buyback Program, Repurchasing HKD 1B Daily",
+    "url": "https://finance.example.com/news/0700.hk_1",
+    "published_utc": "2026-11-07T13:05:47.865120+00:00",
+    "source_name": "Reuters",
+    "summary": "The social and gaming giant continued its aggressive capital return strategy, maintaining consistent daily buybacks on the Hong Kong Stock Exchange.",
+    "relevance_score": 0.87,
+    "sentiment_score": 0.72,
+    "sentiment_label": "BULLISH",
+    "is_mock": true,
+    "raw_metadata": {
+      "is_synthetic": true
+    }
+  },
+  {
+    "article_id": "exa_mock_0700.HK_0",
+    "ticker": "0700.HK",
+    "title": "[MOCK DEMO] Tencent Q3 Profit Jumps 47% Driven by Gaming and AI Ad Acceleration",
+    "url": "https://finance.example.com/news/0700.hk_0",
+    "published_utc": "2026-11-08T12:05:47.865120+00:00",
+    "source_name": "Bloomberg HK",
+    "summary": "Tencent Holdings Ltd. reported stronger-than-expected net profit as new domestic blockbuster titles and AI-enhanced ad targeting drove margins higher.",
+    "relevance_score": 0.822,
+    "sentiment_score": 0.88,
+    "sentiment_label": "BULLISH",
+    "is_mock": true,
+    "raw_metadata": {
+      "is_synthetic": true
+    }
+  },
+  {
+    "article_id": "exa_mock_9988.HK_3",
+    "ticker": "9988.HK",
+    "title": "[MOCK DEMO] Alibaba Continues $25B Share Repurchase Mandate, Bolstering Valuation Floor",
+    "url": "https://finance.example.com/news/9988.hk_3",
+    "published_utc": "2026-11-02T17:05:48.601235+00:00",
+    "source_name": "South China Morning Post",
+    "summary": "Alibaba repurchased $4.1 billion in shares over the latest quarter, maintaining one of the highest shareholder yield profiles in Asian tech.",
+    "relevance_score": 0.866,
+    "sentiment_score": 0.65,
+    "sentiment_label": "BULLISH",
+    "is_mock": true,
+    "raw_metadata": {
+      "is_synthetic": true
+    }
+  },
+  {
+    "article_id": "exa_mock_9988.HK_2",
+    "ticker": "9988.HK",
+    "title": "[MOCK DEMO] Morgan Stanley Lowers Alibaba Target on E-Commerce Margin Pressure",
+    "url": "https://finance.example.com/news/9988.hk_2",
+    "published_utc": "2026-11-04T16:05:48.601235+00:00",
+    "source_name": "Reuters",
+    "summary": "Morgan Stanley adjusted its price target citing intense promotional competition from rival platforms PDD and Douyin.",
+    "relevance_score": 0.835,
+    "sentiment_score": -0.55,
+    "sentiment_label": "BEARISH",
+    "is_mock": true,
+    "raw_metadata": {
+      "is_synthetic": true
+    }
+  },
+  {
+    "article_id": "exa_mock_9988.HK_1",
+    "ticker": "9988.HK",
+    "title": "[MOCK DEMO] Alibaba Records Modest Gross Merchandise Volume Growth During Double 11 Festival",
+    "url": "https://finance.example.com/news/9988.hk_1",
+    "published_utc": "2026-11-06T19:05:48.601235+00:00",
+    "source_name": "Wall Street Journal",
+    "summary": "Taobao and Tmall saw steady active buyer growth during the flagship shopping festival despite cautious consumer spending.",
+    "relevance_score": 0.855,
+    "sentiment_score": 0.2,
+    "sentiment_label": "BULLISH",
+    "is_mock": true,
+    "raw_metadata": {
+      "is_synthetic": true
+    }
+  },
+  {
+    "article_id": "exa_mock_9988.HK_0",
+    "ticker": "9988.HK",
+    "title": "[MOCK DEMO] Alibaba Cloud Cuts AI Model Pricing to Accelerate Enterprise Adoption",
+    "url": "https://finance.example.com/news/9988.hk_0",
+    "published_utc": "2026-11-08T11:05:48.601235+00:00",
+    "source_name": "Caixin Global",
+    "summary": "Alibaba's cloud division reduced inference prices across its Tongyi Qianwen large language models to capture burgeoning enterprise AI workloads.",
+    "relevance_score": 0.837,
+    "sentiment_score": 0.6,
+    "sentiment_label": "BULLISH",
+    "is_mock": true,
+    "raw_metadata": {
+      "is_synthetic": true
+    }
+  },
+  {
+    "article_id": "exa_mock_3690.HK_2",
+    "ticker": "3690.HK",
+    "title": "[MOCK DEMO] Brokerages Raise Meituan Target on Operating Leverage and Overseas Traction",
+    "url": "https://finance.example.com/news/3690.hk_2",
+    "published_utc": "2026-11-02T18:05:48.625876+00:00",
+    "source_name": "AAStocks",
+    "summary": "UBS and Citi updated ratings to Buy, projecting continued margin expansion in domestic food delivery alongside promising international catalysts.",
+    "relevance_score": 0.849,
+    "sentiment_score": 0.78,
+    "sentiment_label": "BULLISH",
+    "is_mock": true,
+    "raw_metadata": {
+      "is_synthetic": true
+    }
+  },
+  {
+    "article_id": "exa_mock_3690.HK_1",
+    "ticker": "3690.HK",
+    "title": "[MOCK DEMO] Meituan Outpaces Estimates in On-Demand Delivery and In-Store Services",
+    "url": "https://finance.example.com/news/3690.hk_1",
+    "published_utc": "2026-11-05T11:05:48.625876+00:00",
+    "source_name": "Bloomberg",
+    "summary": "Meituan reported solid revenue growth driven by expanding high-margin local lifestyle vouchers and flash-delivery retail orders.",
+    "relevance_score": 0.858,
+    "sentiment_score": 0.82,
+    "sentiment_label": "BULLISH",
+    "is_mock": true,
+    "raw_metadata": {
+      "is_synthetic": true
+    }
+  },
+  {
+    "article_id": "exa_mock_3690.HK_0",
+    "ticker": "3690.HK",
+    "title": "[MOCK DEMO] Meituan's KeeTa Captures #1 Food Delivery Market Share in Saudi Arabia",
+    "url": "https://finance.example.com/news/3690.hk_0",
+    "published_utc": "2026-11-08T10:05:48.625876+00:00",
+    "source_name": "Arabian Business",
+    "summary": "Meituan's international delivery arm KeeTa surpassed incumbent delivery platforms in Riyadh within months of expansion.",
+    "relevance_score": 0.86,
+    "sentiment_score": 0.92,
+    "sentiment_label": "BULLISH",
+    "is_mock": true,
+    "raw_metadata": {
+      "is_synthetic": true
+    }
+  },
+  {
+    "article_id": "exa_mock_0005.HK_2",
+    "ticker": "0005.HK",
+    "title": "[MOCK DEMO] Global Rate Cut Expectations Prompt Analysts to Moderate Bank Net Interest Income",
+    "url": "https://finance.example.com/news/0005.hk_2",
+    "published_utc": "2026-11-02T15:05:48.649834+00:00",
+    "source_name": "Bloomberg",
+    "summary": "Lower global policy rates are expected to compress net interest margins for large commercial lenders in subsequent quarters.",
+    "relevance_score": 0.868,
+    "sentiment_score": -0.35,
+    "sentiment_label": "BEARISH",
+    "is_mock": true,
+    "raw_metadata": {
+      "is_synthetic": true
+    }
+  },
+  {
+    "article_id": "exa_mock_0005.HK_1",
+    "ticker": "0005.HK",
+    "title": "[MOCK DEMO] HSBC Simplifies Corporate Structure into Four Business Units to Trim Costs",
+    "url": "https://finance.example.com/news/0005.hk_1",
+    "published_utc": "2026-11-05T15:05:48.649834+00:00",
+    "source_name": "Reuters",
+    "summary": "Chief Executive Pam Kaur initiated an organizational restructuring to streamline operations across Hong Kong, the UK, and international wholesale markets.",
+    "relevance_score": 0.829,
+    "sentiment_score": 0.5,
+    "sentiment_label": "BULLISH",
+    "is_mock": true,
+    "raw_metadata": {
+      "is_synthetic": true
+    }
+  },
+  {
+    "article_id": "exa_mock_0005.HK_0",
+    "ticker": "0005.HK",
+    "title": "[MOCK DEMO] HSBC Unveils $3 Billion Share Buyback and Confirms Special Dividend Plan",
+    "url": "https://finance.example.com/news/0005.hk_0",
+    "published_utc": "2026-11-08T18:05:48.649834+00:00",
+    "source_name": "Financial Times",
+    "summary": "HSBC Holdings announced a fresh $3 billion buyback while reaffirming attractive dividend payouts following strong wealth management inflows.",
+    "relevance_score": 0.943,
+    "sentiment_score": 0.85,
+    "sentiment_label": "BULLISH",
+    "is_mock": true,
+    "raw_metadata": {
+      "is_synthetic": true
+    }
+  },
+  {
+    "article_id": "exa_mock_1211.HK_2",
+    "ticker": "1211.HK",
+    "title": "[MOCK DEMO] European Tariff Uncertainties Cloud Chinese EV Export Valuations",
+    "url": "https://finance.example.com/news/1211.hk_2",
+    "published_utc": "2026-11-02T15:05:48.673599+00:00",
+    "source_name": "Caixin",
+    "summary": "Ongoing trade negotiations between China and the European Union have introduced short-term volatility to Chinese EV export forecasts.",
+    "relevance_score": 0.868,
+    "sentiment_score": -0.45,
+    "sentiment_label": "BEARISH",
+    "is_mock": true,
+    "raw_metadata": {
+      "is_synthetic": true
+    }
+  },
+  {
+    "article_id": "exa_mock_1211.HK_1",
+    "ticker": "1211.HK",
+    "title": "[MOCK DEMO] BYD Expands Assembly Footprint in Southeast Asia and South America",
+    "url": "https://finance.example.com/news/1211.hk_1",
+    "published_utc": "2026-11-05T15:05:48.673599+00:00",
+    "source_name": "Nikkei Asia",
+    "summary": "BYD's overseas manufacturing push is mitigating tariffs while positioning the brand to capture electric vehicle market share across emerging markets.",
+    "relevance_score": 0.829,
+    "sentiment_score": 0.78,
+    "sentiment_label": "BULLISH",
+    "is_mock": true,
+    "raw_metadata": {
+      "is_synthetic": true
+    }
+  },
+  {
+    "article_id": "exa_mock_1211.HK_0",
+    "ticker": "1211.HK",
+    "title": "[MOCK DEMO] BYD Surpasses 500,000 Monthly Deliveries in Landmark Milestone for Global EVs",
+    "url": "https://finance.example.com/news/1211.hk_0",
+    "published_utc": "2026-11-08T18:05:48.673599+00:00",
+    "source_name": "Electrek",
+    "summary": "BYD achieved a historic 500,000 monthly sales milestone, driven by blockbuster demand for its fifth-generation DM dual-mode plug-in hybrids.",
+    "relevance_score": 0.943,
+    "sentiment_score": 0.95,
+    "sentiment_label": "BULLISH",
+    "is_mock": true,
+    "raw_metadata": {
+      "is_synthetic": true
+    }
+  }
+]

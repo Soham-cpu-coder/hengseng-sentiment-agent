@@ -1,0 +1,26 @@
+# CrowdWisdom Trading - HengSeng & Exchange Sentiment Price Prediction Agent
+# Core dependencies
+
+# Data manipulation & Numerical Computing
+numpy>=1.22.0
+pandas>=1.5.0
+scipy>=1.9.0
+
+# Machine Learning & Validation
+scikit-learn>=1.1.0
+
+# Web APIs, Scraping & News Ingestion
+requests>=2.28.0
+apify-client>=1.4.0
+exa-py>=1.0.0
+python-dotenv>=1.0.0
+
+# Financial Data & Market Prices
+yfinance>=0.2.20
+
+# Visualization & Interactive Dashboards
+streamlit>=1.25.0
+plotly>=5.15.0
+
+# Testing & Quality Assurance
+pytest>=7.0.0

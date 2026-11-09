@@ -1,0 +1,1027 @@
+{
+  "metadata": {
+    "generated_at": "2026-11-08T20:05:48.691939+00:00",
+    "exchange": "HKEX",
+    "lookback_days": 10,
+    "total_assets": 5,
+    "data_mode": {
+      "social": "synthetic",
+      "news": "synthetic",
+      "prices": "synthetic",
+      "overall": "synthetic"
+    },
+    "provenance": {
+      "run_timestamp": "2026-11-08T20:05:48.691012+00:00",
+      "price_date_range": {
+        "start": "2026-10-29",
+        "end": "2026-11-08",
+        "lookback_days": 180,
+        "display": "2026-10-29 to 2026-11-08 (~180 days)"
+      },
+      "total_social_posts": 918,
+      "total_news_articles": 18,
+      "total_price_bars": 645,
+      "social_mode": "synthetic",
+      "news_mode": "synthetic",
+      "prices_mode": "synthetic",
+      "overall_mode": "synthetic",
+      "by_ticker": {
+        "0700.HK": {
+          "name": "Tencent Holdings Ltd.",
+          "exchange": "HKEX",
+          "social": 171,
+          "social_posts": 171,
+          "news": 5,
+          "news_articles": 5,
+          "social_sources": {
+            "telegram": 55,
+            "lihkg": 73,
+            "futu_moomoo": 43
+          },
+          "is_low_data": false
+        },
+        "9988.HK": {
+          "name": "Alibaba Group Holding Ltd.",
+          "exchange": "HKEX",
+          "social": 188,
+          "social_posts": 188,
+          "news": 4,
+          "news_articles": 4,
+          "social_sources": {
+            "telegram": 71,
+            "lihkg": 60,
+            "futu_moomoo": 57
+          },
+          "is_low_data": false
+        },
+        "3690.HK": {
+          "name": "Meituan",
+          "exchange": "HKEX",
+          "social": 195,
+          "social_posts": 195,
+          "news": 3,
+          "news_articles": 3,
+          "social_sources": {
+            "telegram": 67,
+            "lihkg": 88,
+            "futu_moomoo": 40
+          },
+          "is_low_data": false
+        },
+        "0005.HK": {
+          "name": "HSBC Holdings plc",
+          "exchange": "HKEX",
+          "social": 182,
+          "social_posts": 182,
+          "news": 3,
+          "news_articles": 3,
+          "social_sources": {
+            "telegram": 76,
+            "lihkg": 72,
+            "futu_moomoo": 34
+          },
+          "is_low_data": false
+        },
+        "1211.HK": {
+          "name": "BYD Company Limited",
+          "exchange": "HKEX",
+          "social": 182,
+          "social_posts": 182,
+          "news": 3,
+          "news_articles": 3,
+          "social_sources": {
+            "telegram": 76,
+            "lihkg": 72,
+            "futu_moomoo": 34
+          },
+          "is_low_data": false
+        }
+      }
+    },
+    "aggregate_validation": {
+      "oos_samples_count": 560,
+      "mean_hit_ratio_pct": 51.07,
+      "price_only_hit_ratio_pct": 51.07,
+      "mean_information_coefficient": 0.0368,
+      "mean_rmse": 0.02164,
+      "mean_mae": 0.01729,
+      "price_only_rmse": 0.02201,
+      "zero_return_rmse": 0.01931,
+      "mean_strategy_sharpe": 0.11,
+      "mean_strategy_cumulative_return_pct": 0.64,
+      "mean_benchmark_cumulative_return_pct": 7.49,
+      "sentiment_beat_price_only_verdict": "Sentiment model reduced forecasting error over price-only baseline (RMSE 0.0216 vs 0.0220), with hit ratio of 51.1% vs 51.1%."
+    }
+  },
+  "summaries": [
+    {
+      "ticker": "0700.HK",
+      "asset_name": "Tencent Holdings Ltd.",
+      "exchange": "HKEX",
+      "currency": "HKD",
+      "current_price": 370.38,
+      "social_mentions": 171,
+      "buzz_zscore": 1.22,
+      "sentiment_score": 0.4729,
+      "sentiment_direction": "BULLISH",
+      "engagement_weighted_sentiment": 0.4015,
+      "sentiment_velocity": 0.1304,
+      "divergence": "CONVERGENT",
+      "is_low_data": false,
+      "predicted_next_price": 387.03,
+      "predicted_next_return_pct": 4.49,
+      "confidence_interval": [
+        373.24,
+        400.81
+      ],
+      "position": {
+        "status": "BUY",
+        "reason": "Bullish momentum & sentiment (R/R 1.79 >= 1.5, Conv 0.60)",
+        "conviction": 0.6,
+        "entry": 370.38,
+        "stop_loss": 356.46,
+        "take_profit_1": 395.26,
+        "take_profit_2": 422.03,
+        "risk_reward": 1.79
+      },
+      "support_resistance": {
+        "pivot": 366.79,
+        "r1": 374.33,
+        "r2": 380.01,
+        "s1": 361.11,
+        "s2": 353.57,
+        "fib_618": 378.72,
+        "nearest_support": 366.79,
+        "nearest_resistance": 374.33
+      },
+      "validation": {
+        "oos_samples": 112,
+        "hit_ratio": 0.3839,
+        "information_coefficient": -0.0355,
+        "strategy_sharpe": -2.17,
+        "strategy_cumulative_return_pct": -27.13,
+        "benchmark_cumulative_return_pct": -5.87,
+        "rmse": 0.02092,
+        "mae": 0.01716,
+        "insufficient_data": false,
+        "baselines": {
+          "price_only_directional_accuracy": 0.3839,
+          "price_only_rmse": 0.0213,
+          "zero_return_rmse": 0.01935,
+          "sentiment_improves_directional_accuracy": false,
+          "sentiment_improves_rmse": true
+        },
+        "predicted_vs_realized": [
+          {
+            "date": "2026-10-23",
+            "predicted_close": 408.41,
+            "realized_close": 393.86,
+            "predicted_return_pct": -0.0,
+            "realized_return_pct": -3.57,
+            "direction_correct": true,
+            "error_pct": 3.69
+          },
+          {
+            "date": "2026-10-26",
+            "predicted_close": 393.3,
+            "realized_close": 389.8,
+            "predicted_return_pct": -0.14,
+            "realized_return_pct": -1.03,
+            "direction_correct": true,
+            "error_pct": 0.9
+          },
+          {
+            "date": "2026-10-27",
+            "predicted_close": 389.54,
+            "realized_close": 384.43,
+            "predicted_return_pct": -0.07,
+            "realized_return_pct": -1.38,
+            "direction_correct": true,
+            "error_pct": 1.33
+          },
+          {
+            "date": "2026-10-28",
+            "predicted_close": 384.16,
+            "realized_close": 386.81,
+            "predicted_return_pct": -0.07,
+            "realized_return_pct": 0.62,
+            "direction_correct": false,
+            "error_pct": 0.69
+          },
+          {
+            "date": "2026-10-29",
+            "predicted_close": 386.46,
+            "realized_close": 373.05,
+            "predicted_return_pct": -0.09,
+            "realized_return_pct": -3.56,
+            "direction_correct": true,
+            "error_pct": 3.6
+          },
+          {
+            "date": "2026-10-30",
+            "predicted_close": 371.79,
+            "realized_close": 355.12,
+            "predicted_return_pct": -0.34,
+            "realized_return_pct": -4.81,
+            "direction_correct": true,
+            "error_pct": 4.69
+          },
+          {
+            "date": "2026-11-02",
+            "predicted_close": 343.49,
+            "realized_close": 358.67,
+            "predicted_return_pct": -3.27,
+            "realized_return_pct": 1.0,
+            "direction_correct": false,
+            "error_pct": 4.23
+          },
+          {
+            "date": "2026-11-03",
+            "predicted_close": 345.42,
+            "realized_close": 363.05,
+            "predicted_return_pct": -3.69,
+            "realized_return_pct": 1.22,
+            "direction_correct": false,
+            "error_pct": 4.85
+          },
+          {
+            "date": "2026-11-04",
+            "predicted_close": 353.37,
+            "realized_close": 368.64,
+            "predicted_return_pct": -2.67,
+            "realized_return_pct": 1.54,
+            "direction_correct": false,
+            "error_pct": 4.14
+          },
+          {
+            "date": "2026-11-05",
+            "predicted_close": 369.87,
+            "realized_close": 370.38,
+            "predicted_return_pct": 0.33,
+            "realized_return_pct": 0.47,
+            "direction_correct": true,
+            "error_pct": 0.14
+          }
+        ]
+      },
+      "news_articles": [
+        {
+          "title": "[MOCK DEMO] Hang Seng Tech Index Edges Lower as Investors Weigh US Monetary Outlook",
+          "url": "https://finance.example.com/news/0700.hk_4",
+          "source": "HKET",
+          "published_utc": "2026-11-01T19:05:47.865120+00:00",
+          "sentiment_label": "NEUTRAL",
+          "sentiment_score": -0.15
+        },
+        {
+          "title": "[MOCK DEMO] Goldman Sachs Reaffirms Buy Rating on Tencent, Sets Target Price to HKD 465",
+          "url": "https://finance.example.com/news/0700.hk_3",
+          "source": "AAStocks Financial",
+          "published_utc": "2026-11-03T18:05:47.865120+00:00",
+          "sentiment_label": "BULLISH",
+          "sentiment_score": 0.8
+        },
+        {
+          "title": "[MOCK DEMO] Tencent Cloud Expands Global Footprint with New Middle East Availability Zones",
+          "url": "https://finance.example.com/news/0700.hk_2",
+          "source": "South China Morning Post",
+          "published_utc": "2026-11-05T13:05:47.865120+00:00",
+          "sentiment_label": "BULLISH",
+          "sentiment_score": 0.65
+        },
+        {
+          "title": "[MOCK DEMO] Tencent Deepens Share Buyback Program, Repurchasing HKD 1B Daily",
+          "url": "https://finance.example.com/news/0700.hk_1",
+          "source": "Reuters",
+          "published_utc": "2026-11-07T13:05:47.865120+00:00",
+          "sentiment_label": "BULLISH",
+          "sentiment_score": 0.72
+        },
+        {
+          "title": "[MOCK DEMO] Tencent Q3 Profit Jumps 47% Driven by Gaming and AI Ad Acceleration",
+          "url": "https://finance.example.com/news/0700.hk_0",
+          "source": "Bloomberg HK",
+          "published_utc": "2026-11-08T12:05:47.865120+00:00",
+          "sentiment_label": "BULLISH",
+          "sentiment_score": 0.88
+        }
+      ]
+    },
+    {
+      "ticker": "9988.HK",
+      "asset_name": "Alibaba Group Holding Ltd.",
+      "exchange": "HKEX",
+      "currency": "HKD",
+      "current_price": 71.04,
+      "social_mentions": 188,
+      "buzz_zscore": 1.92,
+      "sentiment_score": 0.2449,
+      "sentiment_direction": "BULLISH",
+      "engagement_weighted_sentiment": 0.2582,
+      "sentiment_velocity": -0.0332,
+      "divergence": "CONVERGENT",
+      "is_low_data": false,
+      "predicted_next_price": 74.88,
+      "predicted_next_return_pct": 5.41,
+      "confidence_interval": [
+        71.95,
+        77.81
+      ],
+      "position": {
+        "status": "HOLD",
+        "reason": "R/R 1.44 < 1.5",
+        "conviction": 0.78,
+        "entry": 71.04,
+        "stop_loss": 68.71,
+        "take_profit_1": 74.39,
+        "take_profit_2": 76.73,
+        "risk_reward": 1.44
+      },
+      "support_resistance": {
+        "pivot": 70.4,
+        "r1": 71.52,
+        "r2": 72.46,
+        "s1": 69.46,
+        "s2": 68.34,
+        "fib_618": 69.13,
+        "nearest_support": 70.4,
+        "nearest_resistance": 71.14
+      },
+      "validation": {
+        "oos_samples": 112,
+        "hit_ratio": 0.5625,
+        "information_coefficient": -0.0176,
+        "strategy_sharpe": 0.67,
+        "strategy_cumulative_return_pct": 7.6,
+        "benchmark_cumulative_return_pct": -15.25,
+        "rmse": 0.02173,
+        "mae": 0.0166,
+        "insufficient_data": false,
+        "baselines": {
+          "price_only_directional_accuracy": 0.5625,
+          "price_only_rmse": 0.02178,
+          "zero_return_rmse": 0.02055,
+          "sentiment_improves_directional_accuracy": false,
+          "sentiment_improves_rmse": true
+        },
+        "predicted_vs_realized": [
+          {
+            "date": "2026-10-23",
+            "predicted_close": 67.67,
+            "realized_close": 68.8,
+            "predicted_return_pct": -0.31,
+            "realized_return_pct": 1.35,
+            "direction_correct": false,
+            "error_pct": 1.64
+          },
+          {
+            "date": "2026-10-26",
+            "predicted_close": 68.8,
+            "realized_close": 70.22,
+            "predicted_return_pct": 0.0,
+            "realized_return_pct": 2.06,
+            "direction_correct": true,
+            "error_pct": 2.02
+          },
+          {
+            "date": "2026-10-27",
+            "predicted_close": 70.13,
+            "realized_close": 70.65,
+            "predicted_return_pct": -0.12,
+            "realized_return_pct": 0.61,
+            "direction_correct": false,
+            "error_pct": 0.73
+          },
+          {
+            "date": "2026-10-28",
+            "predicted_close": 70.62,
+            "realized_close": 69.3,
+            "predicted_return_pct": -0.04,
+            "realized_return_pct": -1.91,
+            "direction_correct": true,
+            "error_pct": 1.91
+          },
+          {
+            "date": "2026-10-29",
+            "predicted_close": 69.27,
+            "realized_close": 69.27,
+            "predicted_return_pct": -0.05,
+            "realized_return_pct": -0.04,
+            "direction_correct": true,
+            "error_pct": 0.0
+          },
+          {
+            "date": "2026-10-30",
+            "predicted_close": 69.26,
+            "realized_close": 68.19,
+            "predicted_return_pct": -0.02,
+            "realized_return_pct": -1.56,
+            "direction_correct": true,
+            "error_pct": 1.57
+          },
+          {
+            "date": "2026-11-02",
+            "predicted_close": 67.31,
+            "realized_close": 70.33,
+            "predicted_return_pct": -1.29,
+            "realized_return_pct": 3.14,
+            "direction_correct": false,
+            "error_pct": 4.29
+          },
+          {
+            "date": "2026-11-03",
+            "predicted_close": 70.23,
+            "realized_close": 70.06,
+            "predicted_return_pct": -0.14,
+            "realized_return_pct": -0.38,
+            "direction_correct": true,
+            "error_pct": 0.25
+          },
+          {
+            "date": "2026-11-04",
+            "predicted_close": 69.49,
+            "realized_close": 70.57,
+            "predicted_return_pct": -0.82,
+            "realized_return_pct": 0.73,
+            "direction_correct": false,
+            "error_pct": 1.53
+          },
+          {
+            "date": "2026-11-05",
+            "predicted_close": 68.82,
+            "realized_close": 71.04,
+            "predicted_return_pct": -2.48,
+            "realized_return_pct": 0.67,
+            "direction_correct": false,
+            "error_pct": 3.12
+          }
+        ]
+      },
+      "news_articles": [
+        {
+          "title": "[MOCK DEMO] Alibaba Continues $25B Share Repurchase Mandate, Bolstering Valuation Floor",
+          "url": "https://finance.example.com/news/9988.hk_3",
+          "source": "South China Morning Post",
+          "published_utc": "2026-11-02T17:05:48.601235+00:00",
+          "sentiment_label": "BULLISH",
+          "sentiment_score": 0.65
+        },
+        {
+          "title": "[MOCK DEMO] Morgan Stanley Lowers Alibaba Target on E-Commerce Margin Pressure",
+          "url": "https://finance.example.com/news/9988.hk_2",
+          "source": "Reuters",
+          "published_utc": "2026-11-04T16:05:48.601235+00:00",
+          "sentiment_label": "BEARISH",
+          "sentiment_score": -0.55
+        },
+        {
+          "title": "[MOCK DEMO] Alibaba Records Modest Gross Merchandise Volume Growth During Double 11 Festival",
+          "url": "https://finance.example.com/news/9988.hk_1",
+          "source": "Wall Street Journal",
+          "published_utc": "2026-11-06T19:05:48.601235+00:00",
+          "sentiment_label": "BULLISH",
+          "sentiment_score": 0.2
+        },
+        {
+          "title": "[MOCK DEMO] Alibaba Cloud Cuts AI Model Pricing to Accelerate Enterprise Adoption",
+          "url": "https://finance.example.com/news/9988.hk_0",
+          "source": "Caixin Global",
+          "published_utc": "2026-11-08T11:05:48.601235+00:00",
+          "sentiment_label": "BULLISH",
+          "sentiment_score": 0.6
+        }
+      ]
+    },
+    {
+      "ticker": "3690.HK",
+      "asset_name": "Meituan",
+      "exchange": "HKEX",
+      "currency": "HKD",
+      "current_price": 194.75,
+      "social_mentions": 195,
+      "buzz_zscore": 0.69,
+      "sentiment_score": 0.7233,
+      "sentiment_direction": "BULLISH",
+      "engagement_weighted_sentiment": 0.6456,
+      "sentiment_velocity": 0.1467,
+      "divergence": "CONVERGENT",
+      "is_low_data": false,
+      "predicted_next_price": 213.37,
+      "predicted_next_return_pct": 9.56,
+      "confidence_interval": [
+        206.54,
+        220.19
+      ],
+      "position": {
+        "status": "HOLD",
+        "reason": "R/R 1.09 < 1.5",
+        "conviction": 0.75,
+        "entry": 194.75,
+        "stop_loss": 187.56,
+        "take_profit_1": 202.6,
+        "take_profit_2": 210.54,
+        "risk_reward": 1.09
+      },
+      "support_resistance": {
+        "pivot": 192.88,
+        "r1": 196.01,
+        "r2": 198.28,
+        "s1": 190.61,
+        "s2": 187.48,
+        "fib_618": 202.6,
+        "nearest_support": 192.88,
+        "nearest_resistance": 196.01
+      },
+      "validation": {
+        "oos_samples": 112,
+        "hit_ratio": 0.5179,
+        "information_coefficient": 0.0511,
+        "strategy_sharpe": 0.47,
+        "strategy_cumulative_return_pct": 4.34,
+        "benchmark_cumulative_return_pct": 13.84,
+        "rmse": 0.02368,
+        "mae": 0.01956,
+        "insufficient_data": false,
+        "baselines": {
+          "price_only_directional_accuracy": 0.5179,
+          "price_only_rmse": 0.02451,
+          "zero_return_rmse": 0.01838,
+          "sentiment_improves_directional_accuracy": false,
+          "sentiment_improves_rmse": true
+        },
+        "predicted_vs_realized": [
+          {
+            "date": "2026-10-23",
+            "predicted_close": 207.88,
+            "realized_close": 213.52,
+            "predicted_return_pct": 0.46,
+            "realized_return_pct": 3.18,
+            "direction_correct": true,
+            "error_pct": 2.64
+          },
+          {
+            "date": "2026-10-26",
+            "predicted_close": 213.03,
+            "realized_close": 211.16,
+            "predicted_return_pct": -0.23,
+            "realized_return_pct": -1.1,
+            "direction_correct": true,
+            "error_pct": 0.88
+          },
+          {
+            "date": "2026-10-27",
+            "predicted_close": 212.65,
+            "realized_close": 199.73,
+            "predicted_return_pct": 0.7,
+            "realized_return_pct": -5.41,
+            "direction_correct": false,
+            "error_pct": 6.47
+          },
+          {
+            "date": "2026-10-28",
+            "predicted_close": 202.69,
+            "realized_close": 196.51,
+            "predicted_return_pct": 1.48,
+            "realized_return_pct": -1.61,
+            "direction_correct": false,
+            "error_pct": 3.14
+          },
+          {
+            "date": "2026-10-29",
+            "predicted_close": 197.74,
+            "realized_close": 201.57,
+            "predicted_return_pct": 0.63,
+            "realized_return_pct": 2.57,
+            "direction_correct": true,
+            "error_pct": 1.9
+          },
+          {
+            "date": "2026-10-30",
+            "predicted_close": 201.88,
+            "realized_close": 203.54,
+            "predicted_return_pct": 0.15,
+            "realized_return_pct": 0.98,
+            "direction_correct": true,
+            "error_pct": 0.82
+          },
+          {
+            "date": "2026-11-02",
+            "predicted_close": 205.62,
+            "realized_close": 199.38,
+            "predicted_return_pct": 1.02,
+            "realized_return_pct": -2.04,
+            "direction_correct": false,
+            "error_pct": 3.13
+          },
+          {
+            "date": "2026-11-03",
+            "predicted_close": 202.54,
+            "realized_close": 191.14,
+            "predicted_return_pct": 1.59,
+            "realized_return_pct": -4.13,
+            "direction_correct": false,
+            "error_pct": 5.96
+          },
+          {
+            "date": "2026-11-04",
+            "predicted_close": 201.97,
+            "realized_close": 193.74,
+            "predicted_return_pct": 5.67,
+            "realized_return_pct": 1.36,
+            "direction_correct": true,
+            "error_pct": 4.25
+          },
+          {
+            "date": "2026-11-05",
+            "predicted_close": 194.83,
+            "realized_close": 194.75,
+            "predicted_return_pct": 0.56,
+            "realized_return_pct": 0.52,
+            "direction_correct": true,
+            "error_pct": 0.04
+          }
+        ]
+      },
+      "news_articles": [
+        {
+          "title": "[MOCK DEMO] Brokerages Raise Meituan Target on Operating Leverage and Overseas Traction",
+          "url": "https://finance.example.com/news/3690.hk_2",
+          "source": "AAStocks",
+          "published_utc": "2026-11-02T18:05:48.625876+00:00",
+          "sentiment_label": "BULLISH",
+          "sentiment_score": 0.78
+        },
+        {
+          "title": "[MOCK DEMO] Meituan Outpaces Estimates in On-Demand Delivery and In-Store Services",
+          "url": "https://finance.example.com/news/3690.hk_1",
+          "source": "Bloomberg",
+          "published_utc": "2026-11-05T11:05:48.625876+00:00",
+          "sentiment_label": "BULLISH",
+          "sentiment_score": 0.82
+        },
+        {
+          "title": "[MOCK DEMO] Meituan's KeeTa Captures #1 Food Delivery Market Share in Saudi Arabia",
+          "url": "https://finance.example.com/news/3690.hk_0",
+          "source": "Arabian Business",
+          "published_utc": "2026-11-08T10:05:48.625876+00:00",
+          "sentiment_label": "BULLISH",
+          "sentiment_score": 0.92
+        }
+      ]
+    },
+    {
+      "ticker": "0005.HK",
+      "asset_name": "HSBC Holdings plc",
+      "exchange": "HKEX",
+      "currency": "HKD",
+      "current_price": 85.54,
+      "social_mentions": 182,
+      "buzz_zscore": 1.39,
+      "sentiment_score": 0.4756,
+      "sentiment_direction": "BULLISH",
+      "engagement_weighted_sentiment": 0.5704,
+      "sentiment_velocity": 0.0729,
+      "divergence": "CONVERGENT",
+      "is_low_data": false,
+      "predicted_next_price": 89.21,
+      "predicted_next_return_pct": 4.29,
+      "confidence_interval": [
+        85.91,
+        92.51
+      ],
+      "position": {
+        "status": "HOLD",
+        "reason": "R/R 1.28 < 1.5",
+        "conviction": 0.95,
+        "entry": 85.54,
+        "stop_loss": 82.46,
+        "take_profit_1": 89.49,
+        "take_profit_2": 89.53,
+        "risk_reward": 1.28
+      },
+      "support_resistance": {
+        "pivot": 87.16,
+        "r1": 88.38,
+        "r2": 89.53,
+        "s1": 86.01,
+        "s2": 84.79,
+        "fib_618": 84.35,
+        "nearest_support": 84.79,
+        "nearest_resistance": 86.01
+      },
+      "validation": {
+        "oos_samples": 112,
+        "hit_ratio": 0.5446,
+        "information_coefficient": 0.0931,
+        "strategy_sharpe": 0.8,
+        "strategy_cumulative_return_pct": 9.18,
+        "benchmark_cumulative_return_pct": 22.36,
+        "rmse": 0.02094,
+        "mae": 0.01658,
+        "insufficient_data": false,
+        "baselines": {
+          "price_only_directional_accuracy": 0.5446,
+          "price_only_rmse": 0.02124,
+          "zero_return_rmse": 0.01914,
+          "sentiment_improves_directional_accuracy": false,
+          "sentiment_improves_rmse": true
+        },
+        "predicted_vs_realized": [
+          {
+            "date": "2026-10-23",
+            "predicted_close": 89.12,
+            "realized_close": 86.42,
+            "predicted_return_pct": 0.86,
+            "realized_return_pct": -2.2,
+            "direction_correct": false,
+            "error_pct": 3.13
+          },
+          {
+            "date": "2026-10-26",
+            "predicted_close": 86.71,
+            "realized_close": 86.94,
+            "predicted_return_pct": 0.34,
+            "realized_return_pct": 0.6,
+            "direction_correct": true,
+            "error_pct": 0.26
+          },
+          {
+            "date": "2026-10-27",
+            "predicted_close": 86.96,
+            "realized_close": 84.47,
+            "predicted_return_pct": 0.02,
+            "realized_return_pct": -2.84,
+            "direction_correct": false,
+            "error_pct": 2.94
+          },
+          {
+            "date": "2026-10-28",
+            "predicted_close": 84.35,
+            "realized_close": 84.47,
+            "predicted_return_pct": -0.14,
+            "realized_return_pct": 0.0,
+            "direction_correct": false,
+            "error_pct": 0.14
+          },
+          {
+            "date": "2026-10-29",
+            "predicted_close": 84.38,
+            "realized_close": 83.23,
+            "predicted_return_pct": -0.11,
+            "realized_return_pct": -1.47,
+            "direction_correct": true,
+            "error_pct": 1.38
+          },
+          {
+            "date": "2026-10-30",
+            "predicted_close": 82.99,
+            "realized_close": 86.1,
+            "predicted_return_pct": -0.29,
+            "realized_return_pct": 3.45,
+            "direction_correct": false,
+            "error_pct": 3.62
+          },
+          {
+            "date": "2026-11-02",
+            "predicted_close": 89.74,
+            "realized_close": 87.46,
+            "predicted_return_pct": 4.23,
+            "realized_return_pct": 1.58,
+            "direction_correct": true,
+            "error_pct": 2.61
+          },
+          {
+            "date": "2026-11-03",
+            "predicted_close": 89.6,
+            "realized_close": 86.99,
+            "predicted_return_pct": 2.45,
+            "realized_return_pct": -0.54,
+            "direction_correct": false,
+            "error_pct": 3.0
+          },
+          {
+            "date": "2026-11-04",
+            "predicted_close": 90.9,
+            "realized_close": 87.24,
+            "predicted_return_pct": 4.49,
+            "realized_return_pct": 0.29,
+            "direction_correct": true,
+            "error_pct": 4.19
+          },
+          {
+            "date": "2026-11-05",
+            "predicted_close": 92.69,
+            "realized_close": 85.54,
+            "predicted_return_pct": 6.24,
+            "realized_return_pct": -1.95,
+            "direction_correct": false,
+            "error_pct": 8.35
+          }
+        ]
+      },
+      "news_articles": [
+        {
+          "title": "[MOCK DEMO] Global Rate Cut Expectations Prompt Analysts to Moderate Bank Net Interest Income",
+          "url": "https://finance.example.com/news/0005.hk_2",
+          "source": "Bloomberg",
+          "published_utc": "2026-11-02T15:05:48.649834+00:00",
+          "sentiment_label": "BEARISH",
+          "sentiment_score": -0.35
+        },
+        {
+          "title": "[MOCK DEMO] HSBC Simplifies Corporate Structure into Four Business Units to Trim Costs",
+          "url": "https://finance.example.com/news/0005.hk_1",
+          "source": "Reuters",
+          "published_utc": "2026-11-05T15:05:48.649834+00:00",
+          "sentiment_label": "BULLISH",
+          "sentiment_score": 0.5
+        },
+        {
+          "title": "[MOCK DEMO] HSBC Unveils $3 Billion Share Buyback and Confirms Special Dividend Plan",
+          "url": "https://finance.example.com/news/0005.hk_0",
+          "source": "Financial Times",
+          "published_utc": "2026-11-08T18:05:48.649834+00:00",
+          "sentiment_label": "BULLISH",
+          "sentiment_score": 0.85
+        }
+      ]
+    },
+    {
+      "ticker": "1211.HK",
+      "asset_name": "BYD Company Limited",
+      "exchange": "HKEX",
+      "currency": "HKD",
+      "current_price": 338.61,
+      "social_mentions": 182,
+      "buzz_zscore": 1.39,
+      "sentiment_score": 0.6159,
+      "sentiment_direction": "BULLISH",
+      "engagement_weighted_sentiment": 0.7421,
+      "sentiment_velocity": -0.0179,
+      "divergence": "CONVERGENT",
+      "is_low_data": false,
+      "predicted_next_price": 354.93,
+      "predicted_next_return_pct": 4.82,
+      "confidence_interval": [
+        341.88,
+        367.99
+      ],
+      "position": {
+        "status": "HOLD",
+        "reason": "R/R 1.28 < 1.5",
+        "conviction": 0.95,
+        "entry": 338.61,
+        "stop_loss": 326.36,
+        "take_profit_1": 354.24,
+        "take_profit_2": 354.38,
+        "risk_reward": 1.28
+      },
+      "support_resistance": {
+        "pivot": 344.99,
+        "r1": 349.85,
+        "r2": 354.38,
+        "s1": 340.46,
+        "s2": 335.6,
+        "fib_618": 333.9,
+        "nearest_support": 335.6,
+        "nearest_resistance": 340.46
+      },
+      "validation": {
+        "oos_samples": 112,
+        "hit_ratio": 0.5446,
+        "information_coefficient": 0.0928,
+        "strategy_sharpe": 0.8,
+        "strategy_cumulative_return_pct": 9.19,
+        "benchmark_cumulative_return_pct": 22.36,
+        "rmse": 0.02094,
+        "mae": 0.01657,
+        "insufficient_data": false,
+        "baselines": {
+          "price_only_directional_accuracy": 0.5446,
+          "price_only_rmse": 0.02124,
+          "zero_return_rmse": 0.01914,
+          "sentiment_improves_directional_accuracy": false,
+          "sentiment_improves_rmse": true
+        },
+        "predicted_vs_realized": [
+          {
+            "date": "2026-10-23",
+            "predicted_close": 352.78,
+            "realized_close": 342.07,
+            "predicted_return_pct": 0.86,
+            "realized_return_pct": -2.2,
+            "direction_correct": false,
+            "error_pct": 3.13
+          },
+          {
+            "date": "2026-10-26",
+            "predicted_close": 343.21,
+            "realized_close": 344.11,
+            "predicted_return_pct": 0.33,
+            "realized_return_pct": 0.6,
+            "direction_correct": true,
+            "error_pct": 0.26
+          },
+          {
+            "date": "2026-10-27",
+            "predicted_close": 344.17,
+            "realized_close": 334.35,
+            "predicted_return_pct": 0.02,
+            "realized_return_pct": -2.84,
+            "direction_correct": false,
+            "error_pct": 2.94
+          },
+          {
+            "date": "2026-10-28",
+            "predicted_close": 333.86,
+            "realized_close": 334.35,
+            "predicted_return_pct": -0.15,
+            "realized_return_pct": 0.0,
+            "direction_correct": false,
+            "error_pct": 0.15
+          },
+          {
+            "date": "2026-10-29",
+            "predicted_close": 333.98,
+            "realized_close": 329.43,
+            "predicted_return_pct": -0.11,
+            "realized_return_pct": -1.47,
+            "direction_correct": true,
+            "error_pct": 1.38
+          },
+          {
+            "date": "2026-10-30",
+            "predicted_close": 328.47,
+            "realized_close": 340.79,
+            "predicted_return_pct": -0.29,
+            "realized_return_pct": 3.45,
+            "direction_correct": false,
+            "error_pct": 3.61
+          },
+          {
+            "date": "2026-11-02",
+            "predicted_close": 355.27,
+            "realized_close": 346.18,
+            "predicted_return_pct": 4.25,
+            "realized_return_pct": 1.58,
+            "direction_correct": true,
+            "error_pct": 2.62
+          },
+          {
+            "date": "2026-11-03",
+            "predicted_close": 355.92,
+            "realized_close": 344.32,
+            "predicted_return_pct": 2.81,
+            "realized_return_pct": -0.54,
+            "direction_correct": false,
+            "error_pct": 3.37
+          },
+          {
+            "date": "2026-11-04",
+            "predicted_close": 361.24,
+            "realized_close": 345.32,
+            "predicted_return_pct": 4.91,
+            "realized_return_pct": 0.29,
+            "direction_correct": true,
+            "error_pct": 4.61
+          },
+          {
+            "date": "2026-11-05",
+            "predicted_close": 369.1,
+            "realized_close": 338.61,
+            "predicted_return_pct": 6.89,
+            "realized_return_pct": -1.94,
+            "direction_correct": false,
+            "error_pct": 9.01
+          }
+        ]
+      },
+      "news_articles": [
+        {
+          "title": "[MOCK DEMO] European Tariff Uncertainties Cloud Chinese EV Export Valuations",
+          "url": "https://finance.example.com/news/1211.hk_2",
+          "source": "Caixin",
+          "published_utc": "2026-11-02T15:05:48.673599+00:00",
+          "sentiment_label": "BEARISH",
+          "sentiment_score": -0.45
+        },
+        {
+          "title": "[MOCK DEMO] BYD Expands Assembly Footprint in Southeast Asia and South America",
+          "url": "https://finance.example.com/news/1211.hk_1",
+          "source": "Nikkei Asia",
+          "published_utc": "2026-11-05T15:05:48.673599+00:00",
+          "sentiment_label": "BULLISH",
+          "sentiment_score": 0.78
+        },
+        {
+          "title": "[MOCK DEMO] BYD Surpasses 500,000 Monthly Deliveries in Landmark Milestone for Global EVs",
+          "url": "https://finance.example.com/news/1211.hk_0",
+          "source": "Electrek",
+          "published_utc": "2026-11-08T18:05:48.673599+00:00",
+          "sentiment_label": "BULLISH",
+          "sentiment_score": 0.95
+        }
+      ]
+    }
+  ]
+}
